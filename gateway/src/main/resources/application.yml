@@ -1,0 +1,10 @@
+server:
+  port: 8000
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: neo_route
+        uri: http://ityouknow.com
+        predicates:
+        - Path=/gateway1
