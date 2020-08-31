@@ -1,0 +1,1 @@
+java -Dfile.encoding=utf-8 -jar ./target/config-client-with-bus-0.0.1-SNAPSHOT.jar
